@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92243831283641F400983283 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92243830283641F400983283 /* PlaySound.swift */; };
+		928E0B1C28367D6000860AB1 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E0B1B28367D6000860AB1 /* ProgressBarView.swift */; };
+		92CCD3E22833EB5600EA59F7 /* EditWorkingSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCD3E12833EB5600EA59F7 /* EditWorkingSetView.swift */; };
+		92CCD3EB2834C6D700EA59F7 /* yblw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CCD3EA2834C6D700EA59F7 /* yblw.mp3 */; };
+		92CCD3EE2834E05B00EA59F7 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCD3ED2834E05B00EA59F7 /* FileManager-DocumentsDirectory.swift */; };
 		92CF6ABB282FB0A000D71D28 /* WorkoutTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6ABA282FB0A000D71D28 /* WorkoutTrackerApp.swift */; };
 		92CF6ABD282FB0A000D71D28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6ABC282FB0A000D71D28 /* ContentView.swift */; };
 		92CF6ABF282FB0A200D71D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CF6ABE282FB0A200D71D28 /* Assets.xcassets */; };
 		92CF6AC2282FB0A200D71D28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CF6AC1282FB0A200D71D28 /* Preview Assets.xcassets */; };
+		92CF6AC9282FB10300D71D28 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6AC8282FB10300D71D28 /* Exercise.swift */; };
+		92CF6ACF2830EBB500D71D28 /* WorkingSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6ACE2830EBB500D71D28 /* WorkingSet.swift */; };
+		92CF6AD12830EE7800D71D28 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6AD02830EE7800D71D28 /* ExerciseView.swift */; };
+		92CF6AD32831489000D71D28 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6AD22831489000D71D28 /* WorkoutViewModel.swift */; };
+		92CF6AD5283202A400D71D28 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6AD4283202A400D71D28 /* AddExerciseView.swift */; };
+		92CF6AD72832052000D71D28 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6AD62832052000D71D28 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92243830283641F400983283 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		923BDAB6283762AA00EA9229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		928E0B1B28367D6000860AB1 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		92CCD3E12833EB5600EA59F7 /* EditWorkingSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkingSetView.swift; sourceTree = "<group>"; };
+		92CCD3EA2834C6D700EA59F7 /* yblw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yblw.mp3; path = WorkoutTracker/Sounds/yblw.mp3; sourceTree = SOURCE_ROOT; };
+		92CCD3ED2834E05B00EA59F7 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		92CF6AB7282FB0A000D71D28 /* WorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CF6ABA282FB0A000D71D28 /* WorkoutTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackerApp.swift; sourceTree = "<group>"; };
 		92CF6ABC282FB0A000D71D28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92CF6ABE282FB0A200D71D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92CF6AC1282FB0A200D71D28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92CF6AC8282FB10300D71D28 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		92CF6ACE2830EBB500D71D28 /* WorkingSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingSet.swift; sourceTree = "<group>"; };
+		92CF6AD02830EE7800D71D28 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		92CF6AD22831489000D71D28 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		92CF6AD4283202A400D71D28 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		92CF6AD62832052000D71D28 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92CCD3E32833F63400EA59F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92243830283641F400983283 /* PlaySound.swift */,
+				92CF6AD22831489000D71D28 /* WorkoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92CCD3E42833F65000EA59F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92CCD3ED2834E05B00EA59F7 /* FileManager-DocumentsDirectory.swift */,
+				92CF6AC8282FB10300D71D28 /* Exercise.swift */,
+				92CF6ACE2830EBB500D71D28 /* WorkingSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92CCD3E52833F66D00EA59F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92CF6ABC282FB0A000D71D28 /* ContentView.swift */,
+				92CF6AD4283202A400D71D28 /* AddExerciseView.swift */,
+				92CF6AD02830EE7800D71D28 /* ExerciseView.swift */,
+				928E0B1B28367D6000860AB1 /* ProgressBarView.swift */,
+				92CCD3E12833EB5600EA59F7 /* EditWorkingSetView.swift */,
+				92CF6AD62832052000D71D28 /* TimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92CCD3EC2834C80200EA59F7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				92CCD3EA2834C6D700EA59F7 /* yblw.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		92CF6AAE282FB0A000D71D28 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +114,12 @@
 		92CF6AB9282FB0A000D71D28 /* WorkoutTracker */ = {
 			isa = PBXGroup;
 			children = (
+				923BDAB6283762AA00EA9229 /* Info.plist */,
 				92CF6ABA282FB0A000D71D28 /* WorkoutTrackerApp.swift */,
-				92CF6ABC282FB0A000D71D28 /* ContentView.swift */,
+				92CCD3E42833F65000EA59F7 /* Model */,
+				92CCD3E52833F66D00EA59F7 /* View */,
+				92CCD3E32833F63400EA59F7 /* ViewModel */,
+				92CCD3EC2834C80200EA59F7 /* Sounds */,
 				92CF6ABE282FB0A200D71D28 /* Assets.xcassets */,
 				92CF6AC0282FB0A200D71D28 /* Preview Content */,
 			);
@@ -125,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CCD3EB2834C6D700EA59F7 /* yblw.mp3 in Resources */,
 				92CF6AC2282FB0A200D71D28 /* Preview Assets.xcassets in Resources */,
 				92CF6ABF282FB0A200D71D28 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CF6ACF2830EBB500D71D28 /* WorkingSet.swift in Sources */,
+				928E0B1C28367D6000860AB1 /* ProgressBarView.swift in Sources */,
+				92243831283641F400983283 /* PlaySound.swift in Sources */,
+				92CCD3EE2834E05B00EA59F7 /* FileManager-DocumentsDirectory.swift in Sources */,
 				92CF6ABD282FB0A000D71D28 /* ContentView.swift in Sources */,
+				92CCD3E22833EB5600EA59F7 /* EditWorkingSetView.swift in Sources */,
+				92CF6AD32831489000D71D28 /* WorkoutViewModel.swift in Sources */,
 				92CF6ABB282FB0A000D71D28 /* WorkoutTrackerApp.swift in Sources */,
+				92CF6AD5283202A400D71D28 /* AddExerciseView.swift in Sources */,
+				92CF6AD12830EE7800D71D28 /* ExerciseView.swift in Sources */,
+				92CF6AD72832052000D71D28 /* TimerView.swift in Sources */,
+				92CF6AC9282FB10300D71D28 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +348,12 @@
 				DEVELOPMENT_TEAM = J3VL867AZW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +378,12 @@
 				DEVELOPMENT_TEAM = J3VL867AZW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
